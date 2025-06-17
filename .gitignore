@@ -1,0 +1,139 @@
+# C++ build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Compiled executables
+cplusplus_sandbox
+*.out
+
+# CMake build directories
+cmake-build-*/
+build/
+Build/
+BUILD/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Testing/
+
+# Ninja build files
+*.ninja
+build.ninja
+rules.ninja
+
+# Output directories
+output/
+bin/
+dist/
+
+# Debug symbol files (macOS)
+*.dSYM/
+
+# IDE and editor files
+# CLion
+.idea/
+cmake-build-*/
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+
+# Temporary and cache files
+*.tmp
+*.temp
+*.cache
+*.log
+
+# System files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+# Package managers
+# Conan
+conanbuildinfo.*
+conaninfo.txt
+graph_info.json
+
+# vcpkg
+vcpkg_installed/
+
+# CPM
+_deps/
+
+# Node modules (if using any web components)
+node_modules/
+
+# Documentation build
+docs/_build/
+docs/html/
+docs/latex/
+
+# Testing
+# Google Test
+googletest/
+gtest/
+
+# Catch2
+catch2/
+
+# Coverage reports
+*.gcov
+*.gcda
+*.gcno
+coverage/
+lcov.info
+
+# Profiling
+*.prof
+gmon.out
+perf.data*
+
+# Static analysis
+cppcheck-report.xml
+*.sarif
+
+# Backup files
+*.bak
+*.backup
+*~
